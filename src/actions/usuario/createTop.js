@@ -58,7 +58,7 @@ export const toppingsStartLoading = () =>{
 
             const resp = await fetchSinToken('toppings');
             const body = await resp.json();
-
+            console.log(body)
             if(body.ok){
 
                 dispatch( getToppings(body.toppings) )

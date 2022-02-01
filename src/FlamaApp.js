@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 
 const FlamaApp = () => {  
 
-  console.log('app Renderizada')
+
 
   return ( 
     <>
