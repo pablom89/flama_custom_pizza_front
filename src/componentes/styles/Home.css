@@ -1,0 +1,47 @@
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+
+.sub-container_title{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 45px;
+}
+
+.sub-container button{
+    align-self: center;
+    font-size: 40px;
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    border: 3px solid red;
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: 25px;
+  }
+
+
+@media(max-width: 993px){
+    .sub-container_title{
+        font-size: 30px;
+    }
+    .sub-container button{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 375px){
+    .sub-container_title{
+        font-size: 25px;
+    }
+    .sub-container button{
+        font-size: 25px;
+    }
+}

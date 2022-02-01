@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+ .pizza-cliente__form{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+input[type='radio']{
+  display: none;
+}
+
+
+.pizza-cliente__label{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 23px;
+    background-image: linear-gradient(to right,black,red);
+    width: 80%;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+    margin-top: 11px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  .pizza-cliente__label:hover{
+    box-shadow: 0px 0px 10px #e9ecf2;
+  }
+
+  .pizza-cliente__label:before{
+    
+    content: '';
+    height: 25px;
+    width: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+    
+  }
+
+  input[type='radio']:checked + label{
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .pizza-cliente_p{
+    text-align: center;
+    margin-left: -50px;
+  }
+
+  input[type='radio']:checked + label::before{
+    height: 15px;
+    width: 15px;
+    border: 7px solid transparent;
+    background-color: white;
+   
+  }
+
+
+  .pizza-cliente__boton{
+   border: none;
+   color: red;
+   background-color: transparent;
+   font-size: 20px;
+   border: 1px solid red;
+   width: 50%;
+   padding: 5px 0;
+   font-family: 'Encode Sans SC', sans-serif;
+   margin-top: 15px;
+   border-radius: 10px;
+  }
+
+
+  .datos-cliente{
+      align-self: center;
+      margin-top: 20px;
+  }
+
+  
+
+  .datos-cliente__input{
+    font-family: 'Shadows Into Light', cursive;
+   
+    
+  }
+
+  .datos-cliente__sub{
+    font-family: 'Encode Sans SC', sans-serif;
+  }
+
+  .total{
+    margin-top: 15px;
+    font-family: 'Encode Sans SC', sans-serif;
+    letter-spacing: 2px;
+  }
+
+  @media(max-width: 992px){
+    .pizza-cliente__label{
+      font-size: 15px;
+    }
+    .pizza-cliente__label::before {
+      height: 15px;
+      width: 15px;
+    }
+  }
+
+  @media(max-width: 450px){
+
+    
+    .pizza-cliente_p{
+      margin-left: 15px;
+    }
+
+  }

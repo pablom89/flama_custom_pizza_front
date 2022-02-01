@@ -1,0 +1,120 @@
+body{
+    margin-bottom: 20px;
+}
+.backLink{
+    background-image: linear-gradient(red, black);
+    padding: 11px 27px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.backLink:hover{
+    box-shadow: 0px 0px 7px white;
+}
+
+.toppings{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 19px;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.specialTop{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 19px;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+
+.toppings:hover{
+    color: red;
+}
+
+.specialTop:hover{
+    box-shadow: 0px 0px 10px #e9ecf2;
+}
+
+.title{
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+}
+
+.topping_semana{
+    font-family: 'Encode Sans SC', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.result__titulo{
+font-family: 'Encode Sans SC', sans-serif;
+font-size: 30px;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 15px;
+color: white;
+    
+}
+
+.blinking{
+  font-family: 'Encode Sans SC', sans-serif;
+  margin: auto;
+  margin-top: 10px;
+  color: red;
+  text-align: center;
+}
+
+.item_lista{
+font-family: 'Encode Sans SC', sans-serif;
+font-size: 23px;
+background-image: linear-gradient(to right, red , black);
+width: 100%;
+max-height: 70px;
+line-height: 70px;
+text-align: center;
+margin-top: 11px;
+border-radius: 5px;
+overflow: hidden;
+color: white;
+
+}
+  
+.item_lista:hover{
+    box-shadow: 0px 0px 10px #e9ecf2;
+}
+  
+.result__btn{
+    color: white;
+    border: 1px solid red;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 15px;
+    align-self: center;
+    font-size: 26px;
+    padding: 5px;
+    font-family: 'Encode Sans SC', sans-serif;
+    margin-top: 15px;
+    height: auto;
+    text-align: center;
+}
+
+.result__btn:hover{
+    box-shadow: 0px 0px 10px red;
+}
+  

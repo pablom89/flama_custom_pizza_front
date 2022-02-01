@@ -1,0 +1,208 @@
+
+
+.new__toppings{
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.new__toppings-field{
+    padding: 20px;
+}
+
+.new__toppings-legend{
+    color: white;
+    margin-left: 15px;
+    
+}
+
+.new__toppings-submit{
+    border: 1px solid red;
+    color: white;
+    background-color: transparent;
+    padding: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 15px;
+    width: 75px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.new__toppings-submit:hover{
+    box-shadow: 0px 0px 15px red;
+}
+
+.new__toppings-p{
+    color: white;
+    margin-top: 10px;
+}
+
+.radio{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 3px 0;
+}
+
+.radio__input{
+    display: none;
+}
+
+.radio__circle{
+    width: 17px;
+    height: 17px;
+    border: 1px solid red;
+    border-radius: 9px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.radio__circle::after{
+    content:'';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+
+    transform: scale(0)
+}
+
+.radio__input:checked + .radio__circle::after{
+    transform: scale(1)
+    
+}
+
+
+.new__pizza{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.new__pizza-field{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.new__pizza-field > div{
+    margin-top: 10px;
+}
+
+.new__pizza-field-tops{
+    margin-left: 15px;
+}
+
+.new__pizza-legend{
+    color: white;
+    margin-left: 15px;
+    
+}
+
+.new__pizza-submit{
+    border: 1px solid red;
+    color: white;
+    background-color: transparent;
+    padding: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 15px;
+    width: 75px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.new__pizza-submit:hover{
+    box-shadow: 0px 0px 15px red;
+}
+
+
+.tops__fieldset{
+    width: auto;
+}
+
+.tops__legend{
+    font-family: 'Encode Sans SC', sans-serif;
+    color: white;
+    margin-left: 15px;
+}
+
+.smallTops{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 15px;
+    background-image: linear-gradient(to right, red , black);
+    width: 30%;
+    max-height: 70px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 11px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+.starTop{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 15px;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    width: 30%;
+    max-height: 70px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 11px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.starTop:hover{
+    box-shadow: 0px 0px 10px #e9ecf2;  
+}
+
+.smallTops:hover{
+    box-shadow: 0px 0px 10px #e9ecf2;
+}
+
+.pizzas{
+    width: 90%;
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+    background-image: linear-gradient(to right, red , black);
+    margin: 14px;
+    height: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pizzas:hover{
+    box-shadow: 0px 0px 10px #e9ecf2;
+}
+
+.pizza__legend{
+    font-family: 'Encode Sans SC', sans-serif;
+    color: white;
+    margin-left: 15px;
+}
+
+.pizzas_content{
+    margin: 7px 0;
+}
+
+@media( max-width: 576px ){
+    .smallTops{
+        width: 100%;
+    }
+
+    .starTop{
+        width: 100%;
+    }
+}

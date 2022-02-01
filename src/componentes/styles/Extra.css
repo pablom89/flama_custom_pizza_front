@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap');
+
+.container-extra{
+    margin:auto ;
+    width: 70%;
+    height: auto; 
+}
+
+.container-extra a{
+    background-image: linear-gradient(red, black);
+    padding: 11px 27px;
+    border-radius: 8px;
+    font-size: 20px
+}
+
+.container-extra a:hover{
+    box-shadow: 0px 0px 7px white;
+}
+
+
+
+.container-extra h2{
+    font-family: 'Encode Sans SC', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.pizza-cliente{
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.pizza-cliente__p{
+    font-family: 'Encode Sans SC', sans-serif;
+    text-align: center;
+}
+
+
+.pizza-cliente__btn{
+    color: white;
+    border: 1px solid red;
+    width: 50%;
+    background-color: transparent;
+    border-radius: 15px;
+    align-self: center;
+    font-size: 26px;
+    padding: 5px;
+    font-family: 'Encode Sans SC', sans-serif;
+    margin-top: 45px;
+    height: auto;
+    text-align: center;
+}
+
+@media(max-width: 476px){
+    .pizza-cliente__btn{
+        font-size: 15px;
+    }
+}
